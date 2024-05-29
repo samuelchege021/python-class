@@ -1,0 +1,50 @@
+#import messages as msg
+#msg.hello()
+#msg.bye()
+
+
+#modules
+
+   #module is a file containing python code.may contain python code.may contain functions,classes,etc
+   #used  with modular programming ,which is to separate a programs into parts.
+   
+#from messages import hello,bye
+
+
+from messages import*      #python module index
+hello()
+bye()
+
+
+
+
+
+from car import Car
+car_1=Car("chevvy","corvette",2021,"blue")
+car_2=Car("Ford","mustang",2022,"red")
+#print(car_1.make)
+#print(car_1.model)
+#print(car_1.year)
+#rint(car_1.color)
+
+
+
+#print(car_2.make)
+#print(car_2.model)
+#print(car_2.year)
+#print(car_2.color)
+
+
+car_1.drive()
+car_1.stop()
+
+car_1.wheels=2
+
+
+
+print(car_1.wheels)
+print(car_2.wheels)
+
+
+
+
